@@ -67,7 +67,13 @@
 						</configuration>
 					</execution>
 				</executions>
-
+				<dependencies>
+					<dependency>
+						<groupId>commons-io</groupId>
+						<artifactId>commons-io</artifactId>
+						<version>2.5</version>
+					</dependency>
+				</dependencies>
 			</plugin>
 
 
